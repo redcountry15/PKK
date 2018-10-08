@@ -1,0 +1,261 @@
+/*reset stylesheet*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+/* CSSKU*/
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+body{
+  background-color: #f3f3f3;
+  height:100%;
+}
+
+#wrapper{
+  width: 1000px;
+  margin: 0 auto;
+}
+#header{
+  background-color:#fff;
+  font-family: "Century Gothic";
+  font-size: 20px;
+  color: #111;
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+  position: fixed;
+
+}
+.nama {
+  font-family: Catamaran;
+  font-weight: 500;
+}
+.ikons{
+  padding-left: 25px;
+  cursor: pointer;
+
+}
+#Menu ul{
+display: block;
+margin: auto;
+}
+#Menu ul li{
+  display: inline-block;
+  float: left;
+  text-decoration: none;
+  line-height: 100px;
+  margin-top:3px;
+  list-style: none;
+  padding: 0 20px;
+}
+
+#Menu  ul li a{
+  text-decoration: none;
+  color: black;
+  font-family: "Century Gothic";
+  font-size: 15px;
+  color: #111;
+}
+.Pencarian{
+  float: right;
+  margin-top: 7px;
+
+}
+#Menu .Register{
+float: right;
+cursor: pointer;
+padding: 0 30px;
+text-decoration:underline;
+color: rgb(228, 57, 19);
+
+}
+#Menu .Register:hover{
+  color: rgba(83, 42, 29, 0.97);
+}
+
+/* index*/
+.index-banner{
+  padding-top: 120px;
+  font-weight: normal;
+  width: 100%;
+  height: 250px;
+  background-image: url("Gambar/slider-2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+.index-banner h2 {
+  font-family: Catamaran;
+  font-size: 50px;
+  font-weight: 900;
+  color:#fff;
+  text-align: center;
+  text-shadow: 2px 2px 8px #111;
+}
+.index-banner h1 {
+  font-family: Lato;
+  font-size: 20px;
+  color:#fff;
+  text-align: center;
+  padding-top: 30px;
+}
+.index-banner p{
+  font-family: Cormorant Garamond;
+  font-size: 17px;
+  font-style: italic;
+  font-weight: 500;
+  color: #111;
+  text-align: center;
+  padding-top: 10px;
+
+}
+.index-banner p:hover{
+  font-size: 25px;
+}
+.produk{
+  font-family: Lato;
+  font-size: 50px;
+  font-weight: 500;
+  color:grey;
+  padding-top: 20px;
+  margin: 0 0 ;
+  text-align: center;
+  text-decoration: underline;
+  text-shadow: 2px 2px 8px #f3f3f3;
+}
+
+#footer{
+  background-color: #111;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  height: 85px;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 350px;
+}
+
+.slogan{
+  text-align: center;
+  margin-top: 30px;
+  font-weight: 400;
+  font-family: Lato;
+  font-size: 40px;
+
+}
+.ea{
+  margin-top: 30px;
+  font-family: Catamaran;
+  font-size: 20px;
+  font-weight: 400;
+}
+hr{
+  color: black;
+}
+.unggulan{
+margin: 0 20px;
+margin-top: 30px;
+display:
+
+}
+.p{
+  border: 1px solid #fff;
+  border-radius: 120px;
+  border: none;
+  display: inline-block;
+  margin-top: 20px;
+}
